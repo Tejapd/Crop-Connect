@@ -10,7 +10,7 @@ Crop Connect is an intelligent agricultural management system that uses machine 
 
 ##  Key Features
 - Soil & Rainfall Data: Provides comprehensive insights for better crop decisions.
-- Crop Recommendation & Yield Prediction:** Boosts crop yield by 20%.
+- Crop Recommendation & Yield Prediction: Boosts crop yield by 20%.
 - Virtual Market: Facilitates transactions and connects users for organic product sales.
 - Secure Logout: Ensures safe user session management.
 
