@@ -1,0 +1,28 @@
+&nbsp;   for space
+
+---------------------------------
+
+     button{
+            padding: 10px 20px 10px 20px;
+            border-radius: 10px;
+            border: 2px solid #000;
+        }
+---------------------------------
+
+ button{
+            padding: 10px 20px 10px 20px;
+            border-radius: 10px;
+        }
+
+
+-------------------------------
+ button{
+            padding: 5px 10px 5px 10px;
+            border-radius: 10px;
+        }
+---------------------------------
+        .logout{
+            font-size: 20px;
+        }
+---------------------------------------------
+

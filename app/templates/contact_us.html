@@ -1,0 +1,85 @@
+{% load crispy_forms_tags %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us - Crop Connect</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'about.css' %}">
+    <style>
+        .form-group{
+            width: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark navbar-expand-sm sticky-top bg-dark">
+        <div class="container-fluid"><a class="navbar-brand text-center" href="#" style="margin: 0px 0px;"><b>CROP CONNECT</b></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav text-light ml-auto">
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="{% url 'index' %}"><b><i class="fas fa-home"></i>Home</b></a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="{% url 'about' %}"><b><i class="fas fa-info-circle"></i>About Us</b></a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="{% url 'contact_us' %}"><b><i class="fas fa-envelope"></i>Contact Us</b></a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="{% url 'visitor_signup' %}"><b><i class="fas fa-user-plus"></i>Create Account</b></a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="{% url 'visitor_login' %}"><b><i class="fas fa-sign-in-alt"></i>Login</b></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="general-area-home">
+        <div class="container mt-5">
+            <center><h2>CONTACT US</h2></center>
+            <hr>
+            {% if messages %}
+                {% for message in messages %}
+                    <div class="alert alert-success" role="alert">
+                        {{ message }}
+                    </div>
+                {% endfor %}
+            {% endif %}
+            <center><b>
+            <form method="post" novalidate>
+                {% csrf_token %}
+                <div class="form-group">
+                    {{ form.name.label_tag }}
+                    {{ form.name }}
+                    {% if form.name.errors %}
+                        <div class="text-danger">{{ form.name.errors }}</div>
+                    {% endif %}
+                </div>
+                <div class="form-group">
+                    {{ form.email.label_tag }}
+                    {{ form.email }}
+                    {% if form.email.errors %}
+                        <div class="text-danger">{{ form.email.errors }}</div>
+                    {% endif %}
+                </div>
+                <div class="form-group">
+                    {{ form.subject.label_tag }}
+                    {{ form.subject }}
+                    {% if form.subject.errors %}
+                        <div class="text-danger">{{ form.subject.errors }}</div>
+                    {% endif %}
+                </div>
+                <div class="form-group">
+                    {{ form.message.label_tag }}
+                    {{ form.message }}
+                    {% if form.message.errors %}
+                        <div class="text-danger">{{ form.message.errors }}</div>
+                    {% endif %}
+                </div>
+               <center> <button type="submit" class="btn btn-primary">Send</button></center>
+            </form>
+        </b>
+            </center>
+        </div>
+    </section>
+</body>
+</html>

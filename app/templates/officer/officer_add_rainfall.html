@@ -1,0 +1,33 @@
+{% extends "officer/officer_home.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'officer/officer_add_rainfall.css' %}">
+
+<div class="content">
+
+    <form method="POST">
+        {% csrf_token %} 
+        <div class="container">
+            <h1><u>ADD RAINFALL DETAILS</u></h1>
+            
+            <hr>
+
+            {{ form  }}
+
+            <hr>
+            
+            <button type="submit" class="btn btn-primary" >Add</button>
+            <button type="reset" class="btn btn-primary">Reset</button>
+        </div>
+    </form>
+</div>
+
+<style>
+    button{
+            padding: 10px 20px 10px 20px;
+            border-radius: 10px;
+        }
+
+</style>
+{% endblock %}

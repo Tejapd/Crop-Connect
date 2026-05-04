@@ -1,0 +1,149 @@
+Visitor 
+------------------------------------------------------
+
+1. Naveen P
+2. Varun S
+3. Samyuktha S
+4. Pavan D
+5. Praveen R
+6. Vishal
+
+--------------------------------------------------------------------------------------------
+
+Seller Garden details
+---------------------------------------------------------------------------------------------------------
+1. Narendra CH
+
+Title :- City Roots
+A modern urban farm focusing on sustainable and vertical farming practices, City Roots grows organic leafy greens and herbs in the heart of the city. Known for hydroponic techniques and zero-pesticide produce, it supplies to local restaurants and markets.
+
+
+2. Sanketh S
+
+Title :-Planet Agro House
+An agro-tourism hub and experimental farm, Planet Agro House combines traditional farming with modern greenhouse technology. It cultivates exotic vegetables, offers farm visits, and promotes awareness about climate-resilient crops.
+
+
+3. Umesh N
+
+Title :-Pleasant Farm Garden
+A serene, family-run farm producing seasonal fruits, vegetables, and flowers using organic compost and natural pest repellents. Pleasant Farm Garden also supports local schools by hosting nature camps and garden learning sessions.
+
+
+4. Santosh M
+
+Title :-Pure Farmers
+A cooperative of organic farmers, Pure Farmers specializes in soil-based cultivation of grains, pulses, and root vegetables. Emphasizing farm-to-table traceability, it serves direct-to-consumer subscriptions and health stores.
+
+
+5. Nikhil B
+
+Title :-The Green Barn
+A rustic, eco-friendly garden focusing on permaculture and mixed cropping. The Green Barn grows vegetables, legumes, and medicinal herbs, and incorporates rainwater harvesting and compost pits for closed-loop sustainability.
+
+6. Bhargav V
+
+Title :-Urban Farmerly
+A rooftop farming initiative transforming city buildings into green food hubs. Urban Farmerly grows microgreens, tomatoes, and spinach year-round, using soilless systems and smart irrigation to reduce water use.
+
+
+--------------------------------------------------------------------------------
+
+Officer
+
+1. Kushan S
+2. swarup D
+3. Sagar C
+4. Sindhu C
+5. Tarun V
+6. Srinivas M
+
+-----------------------------------------------------------------------------
+
+Admin
+
+1. Teja PD
+2. Mahaswarup B
+3. Sanjay K
+4. Sachin L
+5. Bharath H
+
+
+--------------------------------------------------------------------------------
+
+Fertilizer History 
+----------------------
+1. 17-17-17
+  17% Nitrogen (N)
+  17% Phosphorus (P₂O₅)
+  17% Potassium (K₂O)
+Balanced fertilizer, good for general-purpose use when all three nutrients are needed equally.
+
+2.  14-35-14
+    14% Nitrogen
+    35% Phosphorus
+     14% Potassium
+High phosphorus fertilizer, best for early-stage plant growth (especially roots and flowers).
+
+3. 20-20 (likely shorthand for 20-20-0)
+   20% Nitrogen
+   20% Phosphorus
+   0% Potassium
+Used when potassium is not needed, supports foliage and root development.
+
+4. 28-28 (likely 28-28-0)
+   28% Nitrogen
+   28% Phosphorus
+   0% Potassium
+Strong in N and P, used for crops that don't require potassium or in potassium-rich soils.
+
+5. Dap -  Diammonium Phosphate 
+---------------------------------------------------------------------------------------------------
+Prediction 
+-----------------------------
+
+1. Fertilizer prediction
+
+26	52	38	Sandy	Maize	37	0	0	Urea
+29	52	45	Loamy	Sugarcane	12	0	36	DAP
+34	65	62	Black	Cotton	7	9	30	14-35-14
+32	62	34	Red	Tobacco	22	0	20	28-28
+----------------------------------------------------------------------------------------------------
+
+2. Disease Prediction
+
+Apple	 Scab
+Apple	Healthy
+Tomato	Yellow Leaf Curl Virus
+
+------------------------------------------------------------------------------------------------------
+3. Crop Prediction
+
+90	42	43	20.87974371	82.00274423	6.502985292	202.9355362	Rice 
+71	54	16	22.61359953	63.69070564	5.749914421	87.75953857	Maize
+9	16	39	18.41164435	91.11927248	6.101198974	105.1834976	Pomegranate
+88	78	45	29.10403455	79.19588629	6.324270089	92.07835761	Banana
+-------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
